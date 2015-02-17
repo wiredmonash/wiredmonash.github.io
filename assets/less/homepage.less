@@ -1,0 +1,192 @@
+// main: style.less
+
+@import (less) "variables.less";
+
+@feature-image-height-sm: 300px;
+@feature-image-height-lg: 600px;
+
+#hero-homepage {
+  background: url(img/lemon-scented-lawns.jpg) bottom left no-repeat;
+  height: @feature-image-height-sm;
+  width: 100vw;
+  overflow: hidden;
+  background-size: cover;
+  position: relative;
+
+  .slide-1, .slide-2, .hero-effects {
+    display: none;
+  }
+
+  .hero-overlay {
+    height: @feature-image-height-sm;
+    left: 0;
+    right: 0;
+    background: rgba(128,0,128,0.6);
+    display: table-cell;
+    vertical-align: middle;
+    width: 100vw;
+    z-index: 2;
+    position: relative;
+  }
+
+  h2 {
+    color: white;
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 0 16px;
+  }
+
+  p {
+    color: white;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 300;
+    margin: 0 0 24px;
+  }
+
+  p.link {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 18px;
+    margin-bottom: 16px;
+
+    a {
+      color: white;
+      text-decoration: none;
+      padding: 7px 9px;
+      border: 2px solid white;
+      border-radius: 4px;
+      display: inline-block;
+
+      &:hover {
+        background: white;
+        color: @wired_purple;
+      }
+    }
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.home-element {
+  position: relative;
+  padding: 36px 0;
+
+  h2 {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: @wired_purple;
+    margin: 0 0 12px;
+    padding-bottom: 6px;
+    font-size: 16px;
+    border-bottom: 5px solid #ccc;
+    position: relative;
+
+    span {
+      background: @body-bg;
+      border-bottom: 5px solid @wired_purple;
+      position: relative;
+      padding-bottom: 6px;
+    }
+  }
+
+  h3 {
+    font-size: 18px;
+    margin: 18px 0;
+  }
+}
+
+@media (min-width: @screen-sm-min) {
+  #hero-homepage {
+    .wrap {
+      width: 480px;
+      position: relative;
+      float: left;
+    }
+  }
+
+
+}
+
+@media (min-width: @screen-md-min) {
+  #hero-homepage {
+    height: @feature-image-height-lg;
+
+    .slide-1, .slide-2, .hero-effects {
+      display: block;
+    }
+
+    .slide-1 {
+      background: darken(@wired_purple, 10%);
+      opacity: 0.2;
+      transform: skew(36deg, 0deg);
+      position: absolute;
+      width: 2000px;
+      height: @feature-image-height-lg;
+      top: 0;
+      right: 600px;
+    }
+
+    .slide-2 {
+      background: @wired_purple;
+      opacity: 0.3;
+      transform: skew(-24deg, 0deg);
+      position: absolute;
+      width: 2000px;
+      height: @feature-image-height-lg;
+      top: 0;
+      right: 500px;
+    }
+
+    .hero-effects, .hero-overlay {
+      height: @feature-image-height-lg;
+      left: 0;
+      right: 0;
+    }
+
+    .hero-effects {
+      position: absolute;
+      z-index: 1;
+
+      .container {
+        position: relative;
+      }
+    }
+
+    .hero-overlay {
+      background: transparent;
+    }
+
+    h2 {
+      font-size: 52px;
+      line-height: 56px;
+    }
+
+    p {
+      font-size: 28px;
+      line-height: 42px;
+    }
+
+    p.link {
+      font-size: 16px;
+      line-height: 21px;
+    }
+
+  }
+}
+@media (min-width: @screen-lg-min) {
+  #hero-homepage {
+    .slide-1 {
+      right: 800px;
+    }
+
+    .slide-2 {
+      right: 700px;
+    }
+  }
+}
