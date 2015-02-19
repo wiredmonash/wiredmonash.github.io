@@ -16,8 +16,12 @@ So call me, maybe!
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta property="og:title" content="{% if page.title %}{{ page.title }} - {% endif %}WIRED Monash" />
 <meta property="og:type" content="website" />
-<meta property="og:image" content="{{ site.url }}/assets/wired-og.jpg" />
 <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+{% if page.image %}
+<meta property="og:image" content="{{ site.url }}{{ page.image }}" />
+{% else %}
+<meta property="og:image" content="{{ site.url }}/assets/img/wired-og.jpg" />
+{% endif %}
 {% if page.description %}
 <meta property="og:description" content="{{ page.description }}" />
 {% else %}
