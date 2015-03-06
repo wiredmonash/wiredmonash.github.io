@@ -6,24 +6,4 @@
   </div>
 </footer>
 <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript">
-  var a = ".nav-button";
-  var b = "#wired-nav";
-  var c = "#main-nav"
-  $(a).click(function() {
-    if(!$(b).hasClass("active")) {
-      $(b).addClass("active");
-      $(c).slideDown(100, function() {
-        $(c).addClass("active");
-      });
-    } else {
-      $(c).slideUp(100, function() {
-        $(c).removeClass("active");
-        $(b).removeClass("active");
-      });
-    }
-    return false;
-  });
-</script>
-</body>
-</html>
+<script type="text/javascript" src="{{ site.url }}/assets/js/main.js"></script>

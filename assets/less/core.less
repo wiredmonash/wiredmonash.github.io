@@ -133,6 +133,35 @@
   }
 }
 
+#small-header {
+  background: @wired_purple;
+
+  .sl-wrap {
+    height: 50px;
+    background: @wired_purple;
+    display: inline-block;
+    padding: 12px 12px 10px;
+    margin-left: -12px;
+  }
+
+  span.logo {
+    display: block;
+    float: left;
+    padding: 0;
+    margin: 0;
+    width: @wired_logo_sl_width;
+    height: @wired_logo_sl_height;
+
+    a {
+      background: url(@wired_logo_sl) left center no-repeat;
+      width: @wired_logo_sl_width;
+      height: @wired_logo_sl_height;
+      display: block;
+      text-indent: -999em;
+    }
+  }
+}
+
 #contact-us {
   background: darken(@body-bg, 5%);
   padding: 45px 0;
@@ -227,7 +256,6 @@ footer {
 
 @media (min-width: @screen-md-min) {
   #global-head {
-
     .container {
       border: none;
     }
@@ -286,11 +314,23 @@ footer {
       }
     }
   }
+
+  #small-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: transparent;
+  }
 }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   #global-head h1 a {
     background-image: url(@wired_logo_retina);
     background-size: @wired_logo_width @wired_logo_height;
+  }
+  #small-header .logo {
+    background-image: url(@wired_logo_sl_retina);
+    background-size: @wired_logo_sl_width @wired_logo_sl_height;
   }
 }

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+{% include top.html %}
+<link rel="stylesheet" href="{{ site.url }}/assets/{{ page.slug }}.css" />
+</head>
+<body>
+<div id="small-header">
+<div class="container">
+<div class="sl-wrap">
+<span class="logo"><a href="{{ site.url }}">WIRED Monash</a></span>
+</div>
+</div>
+</div>
+{{ content }}
+{% include footer.html %}
+{% if page.gmap %}
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAFb8arheYyFsSLvglIjfgO-9Ylq2rdsBc"></script>
+<script type="text/javascript" src="{{ site.url }}/assets/js/{{ page.gmap }}.js"></script>
+{% endif %}
+</body>
+</html>
