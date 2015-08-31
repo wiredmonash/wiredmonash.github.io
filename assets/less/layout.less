@@ -57,8 +57,6 @@ body {
   }
 
   &#calendar {
-    margin-top: 48px;
-
     iframe {
       width: 100%;
       height: 800px;
@@ -110,6 +108,54 @@ body {
     @media (min-width: @screen-md-min) {
       font-size: 48px;
       padding: 24px 0;
+    }
+  }
+
+  ul.subnav-tabs {
+    list-style: none;
+    margin: 0;
+    padding: 0 0 12px;
+    overflow: hidden;
+
+    @media (min-width: @screen-md-min) {
+      margin: -12px 0 0;
+      padding: 0;
+    }
+
+    li {
+      display: block;
+      float: left;
+      font-size: 14px;
+      background: rgba(0,0,0,0.3);
+      margin-right: 4px;
+      text-transform: uppercase;
+      border-radius: 5px;
+
+      @media (min-width: @screen-md-min) {
+        border-radius: 5px 5px 0 0;
+      }
+
+      a {
+        display: block;
+        padding: 9px 15px;
+        color: #c998c9;
+
+        @media (min-width: @screen-md-min) {
+          padding: 16px 20px;
+        }
+      }
+
+      a:hover {
+        color: white;
+      }
+    }
+
+    li.active {
+      background: #efefef;
+
+      a {
+        color: #969696;
+      }
     }
   }
 }
@@ -174,13 +220,17 @@ body {
     margin: 0;
     font-weight: 400;
   }
+
   p.name {
     font-size: 16px;
     font-weight: 700;
     color: #666;
-    margin-top: 18px;
     line-height: 18px;
     margin-bottom: 4px;
+  }
+
+  img + p.name {
+    margin-top: 18px;
   }
 
   p.role {
@@ -193,6 +243,63 @@ body {
   .row > div {
     margin-bottom: 36px;
   }
+
+  a.btn {
+    color: @wired_purple;
+    text-decoration: none;
+    padding: 7px 9px;
+    border: 2px solid @wired_purple;
+    border-radius: 4px;
+    display: inline-block;
+
+    &:hover {
+      background: @wired_purple;
+      color: white;
+    }
+  }
+}
+
+#past-committees {
+
+  h3 {
+    display: none;
+    margin: 0;
+  }
+
+  h4 {
+    font-size: 42px;
+    font-weight: 300;
+    letter-spacing: -1px;
+    margin: 0;
+    text-align: center;
+  }
+
+  img {
+    margin: 18px 0;
+  }
+
+  dl {
+    margin: 0 0 24px;
+    width: 100%;
+    color: #888;
+    text-align: center;
+  }
+
+  dt {
+    font-weight: 700;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+  }
+
+  dd {
+    margin-bottom: 4px;
+    margin-left: 0;
+  }
+
+  dd + dt {
+    margin-top: 18px;
+  }
+
 }
 
 /* Get Involved */
