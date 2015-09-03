@@ -349,6 +349,51 @@ footer {
 	}
 }
 
+#location {
+  p {
+    margin: 0 0 2px;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 300;
+
+    &.monash-ad {
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+  }
+
+  #map-canvas {
+    margin-top: 12px;
+    height: 300px;
+    width: 100%;
+  }
+}
+
+@media (min-width: @screen-sm-min) {
+	#location {
+
+		h3 {
+			text-align: left;
+		}
+
+    p {
+      margin: 0 0 6px;
+      font-size: 21px;
+      font-weight: 300;
+
+      &.first {
+        margin-top: 48px;
+      }
+    }
+
+    #map-canvas {
+      margin-top: 0;
+      height: 500px;
+    }
+  }
+}
+
 @media (min-width: @screen-md-min) {
 	#agm-nav {
 		border-bottom: 1px solid #d0d0d0;
@@ -398,9 +443,7 @@ footer {
 			color: @wired_purple;
     }
   }
-}
 
-@media (min-width: @screen-md-min) {
   .event-intro {
 		padding: 36px 0;
 
