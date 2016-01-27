@@ -2,7 +2,13 @@
 * Developer: [Terence Huynh](http://terencehuynh.com)
 * Version 1.0.1
 
-This website uses Jekyll CMS and LESS CSS preprocessor. To find out more about how Jekyll works, visit the CMS website to find out more information. It is suggested that you install a local version of Jekyll to help develop the website.
+This website uses [Jekyll](http://jekyllrb.com) CMS and [LESS](http://lesscss.org) CSS preprocessor.
+
+Running the site locally requires [Ruby](https://www.ruby-lang.org) and [Bundler](http://bundler.io/).
+
+To install the required dependencies, run `bundle` in the root of the directory.
+
+Then to serve the site locally run `bundle exec jekyll serve`.
 
 ---
 
