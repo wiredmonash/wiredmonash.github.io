@@ -8,7 +8,7 @@ Running the site locally requires [Ruby](https://www.ruby-lang.org) and [Bundler
 
 To install the required dependencies, run `bundle` in the root of the directory.
 
-Then to serve the site locally run `bundle exec jekyll serve`.
+Then to serve the site locally run `bundle exec jekyll serve` (use `bundle exec jekyll serve --config _config.dev.yml` to serve the site relative to localhost).
 
 ---
 
