@@ -28,7 +28,7 @@
 
 - name: WIRED, SMEE and MECC Tech Industry Night
   description: Connecting IT, Electrical Engineering and Mechatronics students with some of Australia's leading tech employers.
-  url: '{{site.url}}/events/industry-night/'
+  url: '/events/industry-night/'
   img: /assets/img/promo/industry-night.jpg
   date_start: 2016-03-23 18:30:00 +10
   date_end: 2016-03-23 21:00:00 +10
@@ -49,7 +49,7 @@
 
 - name: AGM 2015
   description: It is time to have your say and elect a new committee.
-  url: '{{site.url}}/agm-2015/'
+  url: '/agm-2015/'
   img: /assets/img/promo/wired-agm-2015.png
   date_start: 2015-09-14 12:00:00 +10
   date_end: 2015-09-14 14:00:00 +10
@@ -63,7 +63,7 @@
 
 - name: Tech Industry Night
   description: Connecting IT, Electrical Engineering and Mechatronics students with some of Australia's leading tech employers.
-  url: '{{site.url}}/events/industry-night/'
+  url: '/events/industry-night/'
   img: /assets/img/promo/industry-night.jpg
   date_start: 2015-03-31 18:00:00 +10
   date_end: 2015-03-31 20:30:00 +10
