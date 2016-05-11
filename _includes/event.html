@@ -1,0 +1,14 @@
+{% capture event_template %}
+<a href="{{event.url}}"><img src="{{site.url}}{{event.img}}" alt="{{event.name}}" /></a>
+<a href="{{event.url}}"><h4>{{event.name}}</h4></a>
+<p>{{event.description}}</p>
+
+{% assign event_date_end = event.date_end | date: '%s' %}
+{% assign event_difference = event_date_end | minus: event_date_start %}
+
+{% if event_difference > 86400 %}
+    <p><a href="{{event.url}}" class="small-link">{{event.date_start | date: '%B %-d'}} - {{event.date_end | date: '%B %-d %Y'}}</a></p>
+{% else %}
+    <p><a href="{{event.url}}" class="small-link">{{event.date_start | date: '%B %-d %Y, %-I:%M'}} - {{event.date_end | date: '%-I:%M %p'}}</a></p>
+{% endif %}
+{% endcapture %}{{ event_template | strip_newlines }}

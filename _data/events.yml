@@ -1,0 +1,83 @@
+- name: UNIHACK 2016
+  description: Melbourne's premier student hackathon is coming back!
+  url: http://unihack.net/
+  img: /assets/img/promo/unihack-2016.jpg
+  date_start: 2016-07-30 09:00:00 +10
+  date_end: 2016-07-31 18:00:00 +10
+
+- name: WIRED & Accenture Tech Talk
+  description: 'Machine Learning: Beyond the hype.'
+  url: https://www.facebook.com/events/1149092798442475/
+  img: /assets/img/promo/machine-learning.jpg
+  date_start: 2016-04-14 18:00:00 +10
+  date_end: 2016-04-14 19:30:00 +10
+
+- name: UNIHACK Mini 2016
+  description: UNIHACK Mini is our hackathon for first-time hackers, and is only open to Monash University students.
+  url: http://unihack.net/mini/
+  img: /assets/img/promo/unihack-mini-2016.jpg
+  date_start: 2016-04-09 10:00:00 +10
+  date_end: 2016-04-10 17:00:00 +10
+
+- name: WIRED OGM 2016
+  description: UNIHACK Mini Meet & Greet and WIRED OGM.
+  url: https://www.facebook.com/events/237861119888124/
+  img: /assets/img/promo/ogm-2016.jpg
+  date_start: 2016-04-09 17:30:00 +10
+  date_end: 2016-04-09 19:30:00 +10
+
+- name: WIRED, SMEE and MECC Tech Industry Night
+  description: Connecting IT, Electrical Engineering and Mechatronics students with some of Australia's leading tech employers.
+  url: '{{site.url}}/events/industry-night/'
+  img: /assets/img/promo/industry-night.jpg
+  date_start: 2016-03-23 18:30:00 +10
+  date_end: 2016-03-23 21:00:00 +10
+
+- name: WIRED & Atlassian Tech Talk
+  description: Introducing Atlassian and how we do Agile software development.
+  url: https://www.facebook.com/events/1063124147063480/
+  img: /assets/img/promo/wired-atlassian-tech-talk.jpg
+  date_start: 2016-03-08 15:00:00 +10
+  date_end: 2016-03-08 17:00:00 +10
+
+- name: WIRED & Deloitte - First Year BBQ
+  description: Come meet your fellow first years and the WIRED committee over a free BBQ!
+  url: https://www.facebook.com/events/1574096336246584/
+  img: /assets/img/promo/wired-deloitte-bbq.jpg
+  date_start: 2016-03-03 12:00:00 +10
+  date_end: 2016-03-03 14:00:00 +10
+
+- name: AGM 2015
+  description: It is time to have your say and elect a new committee.
+  url: '{{site.url}}/agm-2015/'
+  img: /assets/img/promo/wired-agm-2015.png
+  date_start: 2015-09-14 12:00:00 +10
+  date_end: 2015-09-14 14:00:00 +10
+
+- name: UNIHACK 2015
+  description: Melbourne's premier student hackathon, organised by WIRED Monash, was held on August 15 and 16 at Inspire9.
+  url: http://unihack.net/
+  img: /assets/img/promo/unihack-2015.jpg
+  date_start: 2015-07-30 09:30:00 +10
+  date_end: 2015-07-31 18:00:00 +10
+
+- name: Tech Industry Night
+  description: Connecting IT, Electrical Engineering and Mechatronics students with some of Australia's leading tech employers.
+  url: '{{site.url}}/events/industry-night/'
+  img: /assets/img/promo/industry-night.jpg
+  date_start: 2015-03-31 18:00:00 +10
+  date_end: 2015-03-31 20:30:00 +10
+
+- name: 'Tech Talk: Do we need data retention?'
+  description: Data retention is coming, but is it a massive invasion of privacy or a necessary tool to stop terrorism?
+  url: https://www.facebook.com/events/1563847183866214/
+  img: /assets/img/promo/data-retention.jpg
+  date_start: 2015-04-29 12:00:00 +10
+  date_end: 2015-04-29 13:30:00 +10
+
+- name: SMEE + WIRED Trivia Night
+  description: We're combining forces with SMEE to bring you the most epic Trivia Night ever at The Nott!
+  url: https://www.facebook.com/events/436741613149517/
+  img: /assets/img/promo/trivia-night.jpg
+  date_start: 2015-03-26 18:00:00 +10
+  date_end: 2015-03-26 21:30:00 +10
