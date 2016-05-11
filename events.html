@@ -31,22 +31,33 @@ slug: events
         <div id="upcoming" class="page-element">
           <h3><span>Upcoming Events</span></h3>
           {% for event in upcoming_events %}
-            {% cycle '<div class="row">', '', '', '' %}
+            {% capture test %}{% cycle 'upcoming': '1', '2', '3', '4' %}{% endcapture %}
+            {% if test == '1' %}
+              <div class="row">
+            {% endif %}
               <div class="col-md-3 col-sm-3">
                 {% include event.html %}
               </div>
-            {% cycle '', '', '', '</div>' %}
+            {{ forloop.last }}
+            {% if test == '4' or forrloop.last %}
+              </div>
+            {% endif %}
           {% endfor %}
         </div>
 
         <div id="past" class="page-element">
           <h3><span>Past Events</span></h3>
           {% for event in past_events %}
-            {% cycle '<div class="row">', '', '', '' %}
+            {% capture test2 %}{% cycle 'past': '1', '2', '3', '4' %}{% endcapture %}
+            {% if test2 == '1' %}
+              <div class="row">
+            {% endif %}
               <div class="col-md-3 col-sm-3">
                 {% include event.html %}
               </div>
-            {% cycle '', '', '', '</div>' %}
+            {% if test2 == '4' or forrloop.last %}
+              </div>
+            {% endif %}
           {% endfor %}
         </div>
       </div>
