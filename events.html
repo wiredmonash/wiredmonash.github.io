@@ -31,15 +31,14 @@ slug: events
         <div id="upcoming" class="page-element">
           <h3><span>Upcoming Events</span></h3>
           {% for event in upcoming_events %}
-            {% capture test %}{% cycle 'upcoming': '1', '2', '3', '4' %}{% endcapture %}
-            {% if test == '1' %}
+            {% capture upcoming_cycle %}{% cycle 'upcoming': '1', '2', '3', '4' %}{% endcapture %}
+            {% if upcoming_cycle == '1' %}
               <div class="row">
             {% endif %}
               <div class="col-md-3 col-sm-3">
                 {% include event.html %}
               </div>
-            {{ forloop.last }}
-            {% if test == '4' or forrloop.last %}
+            {% if upcoming_cycle == '4' or forloop.last %}
               </div>
             {% endif %}
           {% endfor %}
@@ -48,14 +47,14 @@ slug: events
         <div id="past" class="page-element">
           <h3><span>Past Events</span></h3>
           {% for event in past_events %}
-            {% capture test2 %}{% cycle 'past': '1', '2', '3', '4' %}{% endcapture %}
-            {% if test2 == '1' %}
+            {% capture past_cycle %}{% cycle 'past': '1', '2', '3', '4' %}{% endcapture %}
+            {% if past_cycle == '1' %}
               <div class="row">
             {% endif %}
               <div class="col-md-3 col-sm-3">
                 {% include event.html %}
               </div>
-            {% if test2 == '4' or forrloop.last %}
+            {% if past_cycle == '4' or forloop.last %}
               </div>
             {% endif %}
           {% endfor %}
