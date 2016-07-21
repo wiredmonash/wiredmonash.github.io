@@ -1,3 +1,24 @@
+- name: Cyber Security 101 - Are you safe?
+  description: Workshops with the Deloitte Cyber Security Team.
+  url: https://www.facebook.com/events/1344059042290745/
+  img: /assets/img/promo/cyber-security-2016.jpg
+  date_start: 2016-08-09 06:00:00 +10
+  date_end: 2016-08-09 09:15:00 +10
+
+- name: 'Fintech: Disruption in Financial Services'
+  description: Panel discussion with ANZ, Square and Acorns.
+  url: https://www.facebook.com/events/1099634990075595/
+  img: /assets/img/promo/fintech-2016.jpg
+  date_start: 2016-08-03 06:30:00 +10
+  date_end: 2016-08-03 07:45:00 +10
+
+- name: Unihack 2016 Mixer Night
+  description: Melbourne's premier student hackathon is coming back!
+  url: http://unihack.net/
+  img: /assets/img/promo/unihack-mixer-night-2016.jpg
+  date_start: 2016-07-26 06:00:00 +10
+  date_end: 2016-07-26 09:45:00 +10
+
 - name: UNIHACK 2016
   description: Melbourne's premier student hackathon is coming back!
   url: http://unihack.net/
