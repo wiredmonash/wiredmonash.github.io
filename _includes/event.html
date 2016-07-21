@@ -3,6 +3,7 @@
 <a href="{{event.url}}"><h4>{{event.name}}</h4></a>
 <p>{{event.description}}</p>
 
+{% assign event_date_start = event.date_start | date: '%s' %}
 {% assign event_date_end = event.date_end | date: '%s' %}
 {% assign event_difference = event_date_end | minus: event_date_start %}
 
