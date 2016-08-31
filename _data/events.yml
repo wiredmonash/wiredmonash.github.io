@@ -1,3 +1,24 @@
+- name: AGM 2016
+  description: Have your say on the future direction of the club.
+  url: /agm-2016/
+  img: /assets/img/promo/wired-agm-2016.jpg
+  date_start: 2016-09-07 18:00:00 +10
+  date_end: 2016-09-07 20:00:00 +10
+
+- name: Trivia Night
+  description: Trivia Night is back!
+  url: https://www.facebook.com/events/917995425013670/
+  img: /assets/img/promo/trivia-night-2016.jpg
+  date_start: 2016-08-31 19:00:00 +10
+  date_end: 2016-08-31 22:00:00 +10
+
+- name: 'Game Development Panel: "Press Start to Begin"'
+  description: Hear from some of the industry's most respected Devs.
+  url: https://www.facebook.com/events/1191685860873502/
+  img: /assets/img/promo/games-dev-panel-2016.jpg
+  date_start: 2016-08-23 18:00:00 +10
+  date_end: 2016-08-23 21:00:00 +10
+
 - name: 'WIRED & Facebook presents: Production Engineering'
   description: Facebook's Production Engineering team comes to Monash.
   url: https://www.facebook.com/events/517499468444341/
@@ -74,38 +95,3 @@
   img: /assets/img/promo/wired-deloitte-bbq.jpg
   date_start: 2016-03-03 12:00:00 +10
   date_end: 2016-03-03 14:00:00 +10
-
-- name: AGM 2015
-  description: It is time to have your say and elect a new committee.
-  url: '/agm-2015/'
-  img: /assets/img/promo/wired-agm-2015.png
-  date_start: 2015-09-14 12:00:00 +10
-  date_end: 2015-09-14 14:00:00 +10
-
-- name: UNIHACK 2015
-  description: Melbourne's premier student hackathon, organised by WIRED Monash, was held on August 15 and 16 at Inspire9.
-  url: http://unihack.net/
-  img: /assets/img/promo/unihack-2015.jpg
-  date_start: 2015-07-30 09:30:00 +10
-  date_end: 2015-07-31 18:00:00 +10
-
-- name: Tech Industry Night
-  description: Connecting IT, Electrical Engineering and Mechatronics students with some of Australia's leading tech employers.
-  url: '/events/industry-night/'
-  img: /assets/img/promo/industry-night.jpg
-  date_start: 2015-03-31 18:00:00 +10
-  date_end: 2015-03-31 20:30:00 +10
-
-- name: 'Tech Talk: Do we need data retention?'
-  description: Data retention is coming, but is it a massive invasion of privacy or a necessary tool to stop terrorism?
-  url: https://www.facebook.com/events/1563847183866214/
-  img: /assets/img/promo/data-retention.jpg
-  date_start: 2015-04-29 12:00:00 +10
-  date_end: 2015-04-29 13:30:00 +10
-
-- name: SMEE + WIRED Trivia Night
-  description: We're combining forces with SMEE to bring you the most epic Trivia Night ever at The Nott!
-  url: https://www.facebook.com/events/436741613149517/
-  img: /assets/img/promo/trivia-night.jpg
-  date_start: 2015-03-26 18:00:00 +10
-  date_end: 2015-03-26 21:30:00 +10
