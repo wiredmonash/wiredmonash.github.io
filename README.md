@@ -14,5 +14,9 @@ Then to serve the site locally run `bundle exec jekyll serve` (use `bundle exec 
 To compile the css install less and clean-code plugin
 ```
 npm i -g less less-plugin-clean-css
-lessc assets/less/styles.less
+lessc --clean-css assets/less/style.less assets/style.css
+```
+For developers a source map can be generated as well
+```
+lessc assets/less/styles.less assets/styles.css --source-map
 ```
