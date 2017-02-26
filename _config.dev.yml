@@ -1,6 +1,6 @@
 # permalinks
 permalink: pretty
 description: "WIRED is the faculty-official IT club for Monash Clayton students. It's open to all studying IT or those who are a little interested."
-timezone: "+1000"
+timezone: Australia/Melbourne
 gems:
   - jekyll-redirect-from
