@@ -1,13 +1,13 @@
 - name: Atlassian Talk
   description: Introducing Atlassian and how we do Agile software development.
-  url: /events/
+  url: 
   img: /assets/img/promo/wired-atlassian-tech-talk-2017.png
   date_start: 2017-09-07 15:00:00 +10
   date_end: 2017-09-07 16:00:00 +10
 
 - name: IRESS BBQ
   description: Come meet your fellow first years and the WIRED committee over a free BBQ!
-  url: /events/
+  url: https://www.facebook.com/events/721177971382044/
   img: /assets/img/promo/wired-iress-bbq-2017.png
   date_start: 2017-02-28 12:00:00 +10
   date_end: 2017-02-28 14:00:00 +10
