@@ -2,6 +2,5 @@
 permalink: pretty
 url: http://wired.org.au
 description: "WIRED is the faculty-official IT club for Monash Clayton students. It's open to all studying IT or those who are a little interested."
-timezone: Australia/Melbourne
 gems:
   - jekyll-redirect-from
