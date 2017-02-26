@@ -2,110 +2,110 @@
   description: Introducing Atlassian and how we do Agile software development.
   url: 
   img: /assets/img/promo/wired-atlassian-tech-talk-2017.png
-  date_start: 2017-03-09 15:00:00 +11
-  date_end: 2017-03-09 16:00:00 +11
+  date_start: 2017-03-09 15:00:00
+  date_end: 2017-03-09 16:00:00
 
 - name: IRESS BBQ
   description: Come meet your fellow first years and the WIRED committee over a free BBQ!
   url: https://www.facebook.com/events/721177971382044/
   img: /assets/img/promo/wired-iress-bbq-2017.png
-  date_start: 2017-02-28 12:00:00 +11
-  date_end: 2017-02-28 14:00:00 +11
+  date_start: 2017-02-28 12:00:00
+  date_end: 2017-02-28 14:00:00
 
 - name: AGM 2016
   description: Have your say on the future direction of the club.
   url: /agm-2016/
   img: /assets/img/promo/wired-agm-2016.jpg
-  date_start: 2016-09-07 18:00:00 +10
-  date_end: 2016-09-07 20:00:00 +10
+  date_start: 2016-09-07 18:00:00
+  date_end: 2016-09-07 20:00:00
 
 - name: Trivia Night
   description: Trivia Night is back!
   url: https://www.facebook.com/events/917995425013670/
   img: /assets/img/promo/trivia-night-2016.jpg
-  date_start: 2016-08-31 19:00:00 +10
-  date_end: 2016-08-31 22:00:00 +10
+  date_start: 2016-08-31 19:00:00
+  date_end: 2016-08-31 22:00:00
 
 - name: 'Game Development Panel: "Press Start to Begin"'
   description: Hear from some of the industry's most respected Devs.
   url: https://www.facebook.com/events/1191685860873502/
   img: /assets/img/promo/games-dev-panel-2016.jpg
-  date_start: 2016-08-23 18:00:00 +10
-  date_end: 2016-08-23 21:00:00 +10
+  date_start: 2016-08-23 18:00:00
+  date_end: 2016-08-23 21:00:00
 
 - name: 'WIRED & Facebook presents: Production Engineering'
   description: Facebook's Production Engineering team comes to Monash.
   url: https://www.facebook.com/events/517499468444341/
   img: /assets/img/promo/facebook-2016.jpg
-  date_start: 2016-08-15 18:00:00 +10
-  date_end: 2016-08-09 21:15:00 +10
+  date_start: 2016-08-15 18:00:00
+  date_end: 2016-08-09 21:15:00
 
 - name: Cyber Security 101 - Are you safe?
   description: Workshops with the Deloitte Cyber Security Team.
   url: https://www.facebook.com/events/1344059042290745/
   img: /assets/img/promo/cyber-security-2016.jpg
-  date_start: 2016-08-09 18:00:00 +10
-  date_end: 2016-08-09 21:15:00 +10
+  date_start: 2016-08-09 18:00:00
+  date_end: 2016-08-09 21:15:00
 
 - name: 'Fintech: Disruption in Financial Services'
   description: Panel discussion with ANZ, Square and Acorns.
   url: https://www.facebook.com/events/1099634990075595/
   img: /assets/img/promo/fintech-2016.jpg
-  date_start: 2016-08-03 18:30:00 +10
-  date_end: 2016-08-03 21:45:00 +10
+  date_start: 2016-08-03 18:30:00
+  date_end: 2016-08-03 21:45:00
 
 - name: Unihack 2016 Mixer Night
   description: Melbourne's premier student hackathon is coming back!
   url: http://unihack.net/
   img: /assets/img/promo/unihack-mixer-night-2016.jpg
-  date_start: 2016-07-26 18:00:00 +10
-  date_end: 2016-07-26 21:45:00 +10
+  date_start: 2016-07-26 18:00:00
+  date_end: 2016-07-26 21:45:00
 
 - name: UNIHACK 2016
   description: Melbourne's premier student hackathon is coming back!
   url: http://unihack.net/
   img: /assets/img/promo/unihack-2016.jpg
-  date_start: 2016-07-30 09:00:00 +10
-  date_end: 2016-07-31 18:00:00 +10
+  date_start: 2016-07-30 9:00:00
+  date_end: 2016-07-31 18:00:00
 
 - name: WIRED & Accenture Tech Talk
   description: 'Machine Learning: Beyond the hype.'
   url: https://www.facebook.com/events/1149092798442475/
   img: /assets/img/promo/machine-learning.jpg
-  date_start: 2016-04-14 18:00:00 +10
-  date_end: 2016-04-14 19:30:00 +10
+  date_start: 2016-04-14 18:00:00
+  date_end: 2016-04-14 19:30:00
 
 - name: UNIHACK Mini 2016
   description: UNIHACK Mini is our hackathon for first-time hackers, and is only open to Monash University students.
   url: http://unihack.net/events/mini-2016/
   img: /assets/img/promo/unihack-mini-2016.jpg
-  date_start: 2016-04-09 10:00:00 +10
-  date_end: 2016-04-10 17:00:00 +10
+  date_start: 2016-04-09 10:00:00
+  date_end: 2016-04-10 17:00:00
 
 - name: WIRED OGM 2016
   description: UNIHACK Mini Meet & Greet and WIRED OGM.
   url: https://www.facebook.com/events/237861119888124/
   img: /assets/img/promo/ogm-2016.jpg
-  date_start: 2016-04-09 17:30:00 +10
-  date_end: 2016-04-09 19:30:00 +10
+  date_start: 2016-04-09 17:30:00
+  date_end: 2016-04-09 19:30:00
 
 - name: WIRED, SMEE and MECC Tech Industry Night
   description: Connecting IT, Electrical Engineering and Mechatronics students with some of Australia's leading tech employers.
   url: '/events/industry-night/'
   img: /assets/img/promo/industry-night.jpg
-  date_start: 2016-03-23 18:30:00 +10
-  date_end: 2016-03-23 21:00:00 +10
+  date_start: 2016-03-23 18:30:00
+  date_end: 2016-03-23 21:00:00
 
 - name: WIRED & Atlassian Tech Talk
   description: Introducing Atlassian and how we do Agile software development.
   url: https://www.facebook.com/events/1063124147063480/
   img: /assets/img/promo/wired-atlassian-tech-talk.jpg
-  date_start: 2016-03-08 15:00:00 +10
-  date_end: 2016-03-08 17:00:00 +10
+  date_start: 2016-03-08 15:00:00
+  date_end: 2016-03-08 17:00:00
 
 - name: WIRED & Deloitte - First Year BBQ
   description: Come meet your fellow first years and the WIRED committee over a free BBQ!
   url: https://www.facebook.com/events/1574096336246584/
   img: /assets/img/promo/wired-deloitte-bbq.jpg
-  date_start: 2016-03-03 12:00:00 +10
-  date_end: 2016-03-03 14:00:00 +10
+  date_start: 2016-03-03 12:00:00
+  date_end: 2016-03-03 14:00:00
