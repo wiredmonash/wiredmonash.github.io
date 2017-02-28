@@ -9,7 +9,7 @@ slug: events
 
 {% for event in site.data.events %}
   {% assign event_date_start = event.date_start | date: '%s' %}
-  {% assign now_date = 'now' | date: '%s' %}
+  {% assign now_date = 'now' | date: '%s' | plus: 36000 %}
   {% assign difference = now_date | minus: event_date_start %}
 
   {% if difference < 0 %}
