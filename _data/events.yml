@@ -1,6 +1,13 @@
+- name: IT Industry Night
+  description: Our ever-popular IT industry night is back and bigger than ever.
+  url: https://www.monash.edu/it/industrynight
+  img: /assets/img/promo/industry-night-2017.png
+  date_start: 2017-03-15 17:00:00
+  date_end: 2017-03-15 19:30:00
+
 - name: Atlassian Talk
   description: Introducing Atlassian and how we do Agile software development.
-  url: 
+  url: https://www.facebook.com/events/179798742518853/
   img: /assets/img/promo/wired-atlassian-tech-talk-2017.png
   date_start: 2017-03-09 15:00:00
   date_end: 2017-03-09 16:00:00
