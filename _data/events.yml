@@ -1,3 +1,24 @@
+- name: "Facebook: Crush Your Coding Interview Workshop"
+  description: Facebook is back to teach you how to crush it in a technical interview!
+  url: https://www.facebook.com/events/410542442658741/
+  img: /assets/img/promo/fb-talk-2017.png
+  date_start: 2017-05-04 18:00:00
+  date_end: 2017-05-04 19:30:00
+
+- name: Unihack Mini 2017
+  description: UNIHACK Mini (the hackathon with the training wheels on) is back!
+  url: https://www.facebook.com/events/110911539449901/
+  img: /assets/img/promo/unihack-mini-2017.png
+  date_start: 2017-04-22 9:00:00
+  date_end: 2017-04-23 17:00:00
+
+- name: Unihack Mini Meet and Greet
+  description: Come and meet your fellow hackers over a plate of pizza.
+  url: https://www.facebook.com/events/2270238543201340/
+  img: /assets/img/promo/unihack-mini-meet-greet-2017.png
+  date_start: 2017-04-06 18:00:00
+  date_end: 2017-04-06 21:00:00
+
 - name: IT Industry Night
   description: Our ever-popular IT industry night is back and bigger than ever.
   url: https://www.monash.edu/it/industrynight
