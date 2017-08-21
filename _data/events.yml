@@ -1,3 +1,17 @@
+- name: "Games Show Night"
+  description: We're going to have trivia, a ton of fun games, and FREE food and drink!
+  url: https://www.facebook.com/events/1737276409899355/
+  img: /assets/img/promo/games-night.jpg
+  date_start: 2017-08-24 18:00:00
+  date_end: 2017-08-24 22:00:00
+
+- name: "Big Data Talk"
+  description: Presented by Accenture, we will be given guidance on the opportunities of what Big Data can solve and what careers can be a path for you.
+  url: https://www.facebook.com/events/2005471762811907/
+  img: /assets/img/promo/big-data-2017.jpg
+  date_start: 2017-08-22 18:00:00
+  date_end: 2017-05-04 20:30:00
+
 - name: "Facebook: Crush Your Coding Interview Workshop"
   description: Facebook is back to teach you how to crush it in a technical interview!
   url: https://www.facebook.com/events/410542442658741/
