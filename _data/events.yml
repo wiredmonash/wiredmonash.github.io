@@ -1,3 +1,17 @@
+- name: "AGM 2017"
+  description: Annual General Meeting is your chance to have your say in the direction of the club!
+  url: #
+  img: /assets/img/agm-2017/agm-banner.jpg
+  date_start: 2017-09-20 18:00:00
+  date_end: 2017-09-20 20:00:00
+
+- name: "Startup Panel"
+  description: We're going to be hosting a startup panel, with representatives from tons of awesome startups!
+  url: https://www.facebook.com/events/156327021614238/
+  img: /assets/img/promo/startup.jpg
+  date_start: 2017-09-14 18:00:00
+  date_end: 2017-09-14 20:00:00
+
 - name: "Games Show Night"
   description: We're going to have trivia, a ton of fun games, and FREE food and drink!
   url: https://www.facebook.com/events/1737276409899355/
