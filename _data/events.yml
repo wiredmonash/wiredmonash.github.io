@@ -1,7 +1,7 @@
 - name: "Coffee and Cake!"
   description: Destress from week 12 with FREE coffee, cakes and pastries and meet our new committee!
   url: https://www.facebook.com/events/176942749523926
-  img: /assets/img.promo/coffee-and-cake.jpg
+  img: /assets/img/promo/coffee-and-cake.jpg
   date_start: 2017-10-04 21:00:00
   date_end: 2017-10-17 16:00:00 
 
