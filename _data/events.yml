@@ -1,3 +1,11 @@
+- name: "WIRED O-Week"
+  description: Come visit our stall to be a part of Wired in 2018!
+  url: https://www.facebook.com/events/167242807391028/
+  img: /assets/img/promo/logo-holding.jpg
+  date_start: 2018-02-19 09:00:00
+  date_end: 2018-02-23 15:00:00
+
+
 - name: "Coffee and Cake!"
   description: Destress from week 12 with FREE coffee, cakes and pastries and meet our new committee!
   url: https://www.facebook.com/events/176942749523926
