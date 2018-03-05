@@ -1,3 +1,24 @@
+- name: "Tech Talk with IMC"
+  description: "Meet IMC employees and learn about their role as developers and opportunities to join the team"
+  url: https://www.facebook.com/events/149288905751235/
+  img: /assets/img/promo/imc-talk-2018.jpg
+  date_start: 2018-03-07 17:30:00
+  date_end: 2018-03-07 18:30:00
+
+- name: "Electronic Trading Challenge with Jane Street"
+  description: "Can you beat the market? We're hosting a coding competition where you can find out!"
+  url: https://www.facebook.com/events/165328420856189/
+  img: /assets/img/promo/etc-2018.jpg
+  date_start: 2018-03-10 09:00:00
+  date_end: 2018-03-10 20:00:00
+
+- name: "Industry Night with FIT and Wired"
+  description: "A must for students from all years! Come find your next internship or grad role and connect with industry"
+  url: https://www.facebook.com/events/891063347760620/
+  img: /assets/img/promo/industry-night-2018.jpg
+  date_start: 2018-03-21 18:00:00
+  date_end: 2018-03-21 20:30:00
+
 - name: "First Week BBQ"
   description: Come meet our members over some free snags!
   url: https://www.facebook.com/events/565735367129689/
