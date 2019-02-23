@@ -29,7 +29,15 @@ slug: events
     <div class="row">
       <div class="col-md-12 col-sm-12">
         <div id="upcoming" class="page-element">
-          <h3><span>Upcoming Events</span></h3>
+          <h3><span>Calendar</span></h3>
+          <iframe src="https://calendar.google.com/calendar/b/4/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;mode=MONTH&amp;height=500&amp;wkst=2&amp;bgcolor=%23700080&amp;src=fits%40monashclubs.org&amp;color=%2342104A&amp;src=wired.org.au_edru6t6dmo2amgsaeu206j215s%40group.calendar.google.com&amp;color=%23B1440E&amp;ctz=Australia%2FSydney"
+            style="padding:5px; background-color: #70008050;"
+            width="800"
+            height="500"
+            frameborder="0"
+            scrolling="no">
+          </iframe>
+          <!-- <h3><span>Upcoming Events</span></h3>
           {% for event in upcoming_events %}
             {% capture upcoming_cycle %}{% cycle 'upcoming': '1', '2', '3', '4' %}{% endcapture %}
             {% if upcoming_cycle == '1' %}
@@ -41,7 +49,7 @@ slug: events
             {% if upcoming_cycle == '4' or forloop.last %}
               </div>
             {% endif %}
-          {% endfor %}
+          {% endfor %} -->
         </div>
 
         <div id="past" class="page-element">
