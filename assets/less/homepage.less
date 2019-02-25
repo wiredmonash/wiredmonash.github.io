@@ -2,12 +2,12 @@
 
 @import (less) "variables.less";
 
-@feature-image-height-sm: 300px;
+@feature-image-height-xs: 300px;
 @feature-image-height-lg: 600px;
 
 #hero-homepage {
   background: url(img/lemon-scented-lawns.jpg) bottom left no-repeat;
-  height: @feature-image-height-sm;
+  height: @feature-image-height-xs;
   width: 100vw;
   max-width: 100%;
   overflow: hidden;
@@ -19,7 +19,7 @@
   }
 
   .hero-overlay {
-    height: @feature-image-height-sm;
+    height: @feature-image-height-xs;
     left: 0;
     right: 0;
     background: rgba(128,0,128,0.6);
@@ -114,7 +114,7 @@
 
 }
 
-@media (min-width: @screen-md-min) {
+@media (min-width: @screen-sm-min) {
   #hero-homepage {
     height: @feature-image-height-lg;
 
