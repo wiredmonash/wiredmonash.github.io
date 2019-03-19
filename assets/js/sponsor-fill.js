@@ -52,11 +52,6 @@ var sponsor_data = [
         level: "silver",
     },
     {
-        name: "Microsoft",
-        logo: "ms-logo.png",
-        level: "bronze",
-    },
-    {
         name: "Facebook",
         logo: "facebook-logo.png",
         level: "bronze",
