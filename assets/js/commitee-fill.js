@@ -6,7 +6,7 @@ var commitee_data = [
     },
     {
         pic_name: "white.jpg",
-        name: "N/A",
+        name: "Paul Papadopoulos",
         role: "Vice President",
     },
     {
@@ -30,7 +30,7 @@ var commitee_data = [
         role: "Industry Officer",
     },
     {
-        pic_name: "white.jpg",
+        pic_name: "amber-layton.jpg",
         name: "Amber Layton",
         role: "Marketing Officer",
     },
@@ -40,14 +40,34 @@ var commitee_data = [
         role: "Activities Officer",
     },
     {
-        pic_name: "rhea-patel.jpg",
-        name: "Rhea Patel",
+        pic_name: "white.png",
+        name: "Bridgitte Buhler",
         role: "Activities Officer",
     },
     {
         pic_name: "jord-gui.jpg",
         name: "Jord Gui",
         role: "Activities Officer",
+    },
+    {
+        pic_name: "white.png",
+        name: "Tahera Shorna",
+        role: "Volunteers Lead",
+    },
+    {
+        pic_name: "mariusz-skoneczko.jpg",
+        name: "Mariusz Skoneczko",
+        role: "First Year Representative",
+    },
+    {
+        pic_name: "james-bathgate.jpg",
+        name: "James Bathgate",
+        role: "First Year Representative",
+    },
+    {
+        pic_name: "eric-jiang.jpg",
+        name: "Eric Jiang",
+        role: "Graduate Representative",
     },
     {
         pic_name: "nancy-lu.jpg",
