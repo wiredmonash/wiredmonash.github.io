@@ -40,7 +40,7 @@ var commitee_data = [
         role: "Activities Officer",
     },
     {
-        pic_name: "white.png",
+        pic_name: "white.jpg",
         name: "Bridgitte Buhler",
         role: "Activities Officer",
     },
@@ -50,7 +50,7 @@ var commitee_data = [
         role: "Activities Officer",
     },
     {
-        pic_name: "white.png",
+        pic_name: "white.jpg",
         name: "Tahera Shorna",
         role: "Volunteers Lead",
     },
